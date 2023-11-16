@@ -1,0 +1,54 @@
+* {
+    font-family: Helvetica, "游ゴシック", sans-serif;
+    background-color: lightgray;
+}
+
+.header__inner {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.header-utilities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 3;
+}
+
+.header-utilities nav {
+    width: 18%;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-nav__link {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-nav__button {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main {
+    height: 100vh;
+}
+
+.title {
+    font-weight: normal;
+}
